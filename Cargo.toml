@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_craft_print"
+version = "0.1.0"
+edition = "2021"
+description = "Print and prepress integration for SigmaOS — layout, pagination, color separation, and printer drivers"
+
+[lib]
+name = "sigmaos_craft_print"
+path = "src/lib.rs"

@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-craft-print"
+tier = 5
+stability = "scaffold"
+language = "rust"
+description = "Print and prepress integration for SigmaOS — layout, pagination, color separation, and printer drivers"
+upstream = []
+
+[contract]
+provides = ["prepress-print", "paper-layout"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"
