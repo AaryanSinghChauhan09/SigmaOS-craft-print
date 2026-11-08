@@ -2,7 +2,8 @@
 name = "sigmaos_craft_print"
 version = "0.1.0"
 edition = "2021"
-description = "Print and prepress integration for SigmaOS — layout, pagination, color separation, and printer drivers"
+license = "MIT"
+description = "SigmaOS craft-print component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_craft_print"
