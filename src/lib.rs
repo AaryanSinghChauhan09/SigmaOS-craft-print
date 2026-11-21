@@ -3,6 +3,9 @@
 //! Real implementation: printers, print jobs, queues, settings, and validation.
 //! Replaces the 104-line CLI placeholder.
 
+/// Print management module.
+pub mod sigmaprint2;
+
 use std::collections::BTreeMap;
 use std::fmt;
 
